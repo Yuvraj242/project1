@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styl.css">
+  <title>S3 Bucket Image Viewer</title>
+</head>
+<body>
+
+<h1>Project 1 - AWS Image Optimiser</h1>
+<h3>Please select a (.jpg) (.jpeg) (.png) image only</h3>
+
+  <!-- Add this section where you want the upload form -->
+<div id="uploadSection"></div>
+
+<!-- Add this section where you want the message area -->
+<div id="messageSection"></div>
+
+  <h1>Optimised Images</h1>
+  <button onclick="refreshImages()">Refresh Images</button>
+  <div id="imageList"></div>
+
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1040.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
